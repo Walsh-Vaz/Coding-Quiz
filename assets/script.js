@@ -39,7 +39,32 @@
             question: "What does javascript provide to your website?",
             options: ["structure", "styling", "functionality", "all of the above"],
             answer: "functionality"
+        },
+
+        // third question
+
+        {
+            question: "What does HTML stands for?",
+            options: ["high text mutiple language", "HyperText Markup Language", "higher level of language", "none of the above"],
+            answer: "HyperText Markup Language"
+        },
+
+        // fourth question
+
+        {
+            question: "What does HTML provide to your website?",
+            options: ["structure", "styling", "functionality", "all of the above"],
+            answer: "structure"
+        },
+
+        // fifth question
+
+        {
+            question: "What does CSS provide to your website?",
+            options: ["structure", "styling", "functionality", "all of the above"],
+            answer: "styling"
         }
+
         ];
     
         function beginQuiz() {
