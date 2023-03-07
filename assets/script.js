@@ -15,6 +15,7 @@
         var options = document.getElementById("opt");
         var headerContainer = document.getElementById("heading-container");
         //var feedEl = document.getElementById("feed");
+        var finalDisplay = document.getElementById("final-display");
     
         var final = document.getElementById("final-score");
         var header2 = document.getElementById("ending-tag");
@@ -66,12 +67,15 @@
         }
 
         ];
+
+        finalDisplay.style.display = "none";
     
         function beginQuiz() {
     
             
     
             headerContainer.style.display = "none";
+            finalDisplay.style.display = "none";
             
     
             setTime = setInterval(function() {
@@ -82,6 +86,7 @@
                     clearInterval(setTime);
                     displayEl.style.display = "none";
                     //timer.style.display = "none";
+                    finalDisplay.style.display = "block";
                     header2.textContent = "Congrats You have completed the Quiz !!!!";
                     final.textContent = "Your final score is " + time;
     
@@ -126,6 +131,7 @@
                         clearInterval(setTime);
                         displayEl.style.display = "none";
                         //timer.style.display = "none";
+                        finalDisplay.style.display = "block";
                         header2.textContent = "Congrats You have completed the Quiz !!!!";
                         final.textContent = "Your final score is " + time;
                     }
