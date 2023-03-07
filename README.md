@@ -16,5 +16,14 @@ Walk-through:
 3) To answer the questions you will have to click on the options which is displayed as buttons
 4) Once you complete the quiz ot when the time hits 0, you will reach the ending screen which will display your final score.
 
+Deployable link:
+
+https://walsh-vaz.github.io/Coding-Quiz/
+
+
+Github Repository :
+
+https://github.com/Walsh-Vaz/Coding-Quiz.git
+
 
 
